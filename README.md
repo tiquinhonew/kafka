@@ -14,6 +14,7 @@
   <a href="#computer-funcionalidades-principais">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#checkered_flag-pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#play_or_pause_button-configuração-e-execução">Configuração e Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#test_tube-exemplo-de-uso-da-api-de-pagamento">Exemplo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#building_construction-Contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -53,6 +54,21 @@ Este projeto foi desenvolvido no curso [Aprenda a usar o Apache Kafka em seus se
     ```
 
 4. Aguarde até que todos os serviços estejam em execução.
+
+5. Após a execução dos passos acima, o consumidor de mensagens Kafka estará pronto para receber e processar mensagens do tópico.
+
+## :test_tube: Exemplo de Uso da API de Pagamento
+
+Para enviar um pagamento, envie uma solicitação POST para `localhost:8100/payments` com o seguinte corpo JSON:
+
+```json
+{
+    "id": 12,
+    "idUser": 24,
+    "idProduct": 42,
+    "cardNumber": "999999999"
+}
+```
 
 ---
 
