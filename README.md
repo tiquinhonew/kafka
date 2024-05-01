@@ -11,28 +11,28 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/tiquinhonew/kafka"> 
 </p>
 <p align="center">
-  <a href="#Funcionalidades Principais">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#pre-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Configuração e Execução">Configuração e Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-funcionalidades-principais">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#checkered_flag-pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#play_or_pause_button-configuração-e-execução">Configuração e Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#building_construction-Contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 Este projeto foi desenvolvido no curso [Aprenda a usar o Apache Kafka em seus serviços
 ](https://picpay.udemy.com/course/apache-kafka-valdir/learn/). Seu objetivo é produzir e consumir mensagens no ecosistema Kafka usando Spring Boot. Além disso, o projeto inclui um arquivo Docker Compose para facilitar a configuração e execução da infraestrutura necessária, incluindo Zookeeper, Kafka, Kafdrop e os serviços relacionados.
 
-## Funcionalidades Principais
+## :computer: Funcionalidades Principais
 
 - Consumo assíncrono de mensagens Kafka.
 - Processamento de mensagens provenientes do tópico Kafka.
 - Utilização do Docker Compose para subir toda a infraestrutura necessária.
 
-## Pré-requisitos
+## :checkered_flag: Pré-requisitos
 
 - Docker
 - Docker Compose
 
-## Configuração e Execução
+## :play_or_pause_button: Configuração e Execução
 
 1. Clone o repositório para o seu ambiente local:
 
@@ -56,6 +56,10 @@ Este projeto foi desenvolvido no curso [Aprenda a usar o Apache Kafka em seus se
 
 ---
 
-## Contribuindo
+## :building_construction: Contribuindo
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+### :memo: Licença
+
+Este projeto está sob a licença MIT. Veja a [licença](https://github.com/tiquinhonew/kafka/blob/master/LICENSE) para mais informações.
