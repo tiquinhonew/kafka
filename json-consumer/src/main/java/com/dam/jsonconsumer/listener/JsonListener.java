@@ -16,21 +16,21 @@ public class JsonListener {
     @SneakyThrows
     @KafkaListener(topics = "payment-topic", groupId = "create-group", containerFactory = "jsonContainerFactory")
     public void antiFraud(@Payload Payment payment) {
+        sleep(2000);
         log.info("JSON_LISTENER ::: Recebi o pagamento {}", payment.toString());
-        sleep(2000);
 
+        sleep(2000);
         log.info("JSON_LISTENER ::: Validando fraude... ");
-        sleep(2000);
 
-        log.info("JSON_LISTENER ::: Compra aprovada... ");
         sleep(3000);
+        log.info("JSON_LISTENER ::: Compra aprovada... ");
     }
 
     @SneakyThrows
     @KafkaListener(topics = "payment-topic", groupId = "pdf-group", containerFactory = "jsonContainerFactory")
     public void pdfGenerator(@Payload Payment payment) {
-        log.info("JSON_LISTENER ::: Gerando PDF de id {}... ", payment.getId());
         sleep(3000);
+        log.info("JSON_LISTENER ::: Gerando PDF de id {}... ", payment.getId());
     }
 
     @SneakyThrows
