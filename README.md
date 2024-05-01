@@ -20,7 +20,7 @@
 </p>
 
 Este projeto foi desenvolvido no curso [Aprenda a usar o Apache Kafka em seus serviços
-](https://picpay.udemy.com/course/apache-kafka-valdir/learn/). Seu objetivo é produzir e consumir mensagens no ecosistema Kafka usando Spring Boot. Além disso, o projeto inclui um arquivo Docker Compose para facilitar a configuração e execução da infraestrutura necessária, incluindo Zookeeper, Kafka, Kafdrop e os serviços relacionados.
+](https://www.udemy.com/course/apache-kafka-valdir/). Seu objetivo é produzir e consumir mensagens no ecosistema Kafka usando Spring Boot. Além disso, o projeto inclui um arquivo Docker Compose para facilitar a configuração e execução da infraestrutura necessária, incluindo Zookeeper, Kafka, Kafdrop e os serviços relacionados.
 
 ## :computer: Funcionalidades Principais
 
