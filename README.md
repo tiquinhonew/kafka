@@ -4,7 +4,7 @@
 <h2 align="center">Consumidor de Mensagens Kafka com Spring</h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/tiquinhonew/kafka">
-  <a href="https://www.codacy.com/manual/tiquinhonew/kafka?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tiquinhonew/kafka&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/01b06a741ce84f778b1ec8362e8a5fd3"/></a>
+  <a href="https://app.codacy.com/gh/tiquinhonew/kafka/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/a6b1cc6a9e244204b000e145373e4666"/></a>
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/tiquinhonew/kafka?color=blueviolet">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tiquinhonew/kafka?color=orange">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/tiquinhonew/kafka">
